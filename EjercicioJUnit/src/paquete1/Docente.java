@@ -6,11 +6,13 @@ public class Docente {
     private String tipo;
     
     public void establecerNombres(String n){
-        nombres = n;
+        nombres = n.toLowerCase();
+        
     }
     
     public String obtenerNombres(){
         return nombres;
+        
     }
     
     public void establecerTipo(String n){
